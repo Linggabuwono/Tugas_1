@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Pendaftaran</string>
+    <string name="Labelapp">Pendaftaran</string>
+    <string name="nd">Nama Depan</string>
+    <string name="nb">Nama Belakang</string>
+    <string name="tl">Tempat Lahir</string>
+    <string name="tgl">Tanggal Lahir</string>
+    <string name="alm">Alamat</string>
+
+    <string name="jk">Jenis Kelamin</string>
+    <string name="lk">Laki-Laki</string>
+    <string name="pr">Perempuan</string>
+
+    <string name="agm">Agama</string>
+    <string name="is">Islam</string>
+    <string name="kr">Kristen</string>
+    <string name="ka">Katholik</string>
+    <string name="hi">Hindu</string>
+    <string name="bu">Budha</string>
+    <string name="kong">Konghucu</string>
+
+    <string name="tlp">Telephon</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="repass">Masukan Password Kembali</string>
+
+    <string name="dft">Daftar</string>
+    <string name="kmbl">Kembali</string>
+</resources>

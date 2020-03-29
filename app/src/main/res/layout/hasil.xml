@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="885dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pendaftaran Berhasil"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Depan :"
+                android:layout_marginTop="80dp"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/NamaDepan2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="105dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Belakang :"
+                android:layout_marginTop="170dp"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/NamaBelakang2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="105dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tempat Tanggal Lahir :"
+                android:layout_marginTop="260dp"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/TTL2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="105dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alamat :"
+                android:layout_marginTop="350dp"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/Alamat2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="105dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis Kelamin :"
+                android:layout_marginTop="440dp"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/JK2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="105dp"
+                android:textSize="20dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agama :"
+                android:layout_marginTop="530dp"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/Agama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="105dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nomer Telephone: "
+                android:layout_marginTop="620dp"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/Telephone2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="105dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email :"
+                android:layout_marginTop="710dp"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/Email2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="105dp"
+                android:textSize="20dp"/>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="790dp">
+                <Button
+                    android:layout_height="match_parent"
+                    android:layout_width="135dp"
+                    android:text="Keluar Aplikasi"
+                    android:id="@+id/keluar"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="4dp"/>
+
+                <Button
+                    android:layout_height="match_parent"
+                    android:layout_width="135dp"
+                    android:text="Oke"
+                    android:id="@+id/lanjut"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="4dp"/>
+            </TableRow>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
